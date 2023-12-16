@@ -26,7 +26,7 @@ const portfolioData = [
         id : 3,
         name : "Website",
         image : ImageThree,
-        link : 'https://github.com/samueldobsa/microservice-api',
+        link : 'https://github.com/samueldobsa/website-react',
         technology: "React"
     },
     {
@@ -62,6 +62,76 @@ const portfolioData = [
         name : "Simple-Banking-System",
         image : ImageTwo,
         link : 'https://github.com/samueldobsa/Simple-Banking-System',
+        technology: "Java"
+    },
+    {
+        id : 3,
+        name : "React-use-effect",
+        image : ImageThree,
+        link : 'https://github.com/samueldobsa/react-use-effect',
+        technology: "React"
+    },
+    {
+        id : 3,
+        name : "Netflix-react-app",
+        image : ImageThree,
+        link : 'https://github.com/samueldobsa/netflix-react-app',
+        technology: "React"
+    },
+    {
+        id : 3,
+        name : "React-counter",
+        image : ImageThree,
+        link : 'https://github.com/samueldobsa/react-counter',
+        technology: "React"
+    },
+    {
+        id : 3,
+        name : "React-task-manager",
+        image : ImageThree,
+        link : 'https://github.com/samueldobsa/react-task-manager',
+        technology: "React"
+    },
+    {
+        id : 3,
+        name : "React-web-app",
+        image : ImageThree,
+        link : 'https://github.com/samueldobsa/react-web-app',
+        technology: "React"
+    },
+    {
+        id : 2,
+        name : "Guide-app",
+        image : ImageOne,
+        link : 'https://github.com/samueldobsa/guide-app',
+        technology: "Java"
+    },
+    {
+        id : 2,
+        name : "Fullstack-AWS-web",
+        image : ImageTwo,
+        link : 'https://github.com/samueldobsa/fullstack-aws-web',
+        technology: "React, Java"
+    },
+    {
+        id : 2,
+        name : "Web-code-aws",
+        image : ImageTwo,
+        link : 'https://github.com/samueldobsa/samuels-web-code-aws',
+        technology: "React, Java"
+    },
+    {
+        id : 2,
+        name : "Java-microservice",
+        image : ImageOne,
+        link : 'https://github.com/samueldobsa/microservices-samuelscode',
+        technology: "Java"
+    },
+    {
+        id : 2,
+        name : "Spring-data-jpa",
+        image : ImageOne,
+        link : 'https://github.com/samueldobsa/spring-data-jpa',
         technology: "Java"
     }
 ]
