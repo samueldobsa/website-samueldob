@@ -1,6 +1,5 @@
 {
-  "homepage": "http://samuel.dobsa.com/",
-  "name": "samueldobsa.github.io",
+  "homepage": "http://samueldobsa.github.io/website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
