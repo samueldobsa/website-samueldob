@@ -1,5 +1,6 @@
 {
-  "homepage": "http://samueldobsa.github.io/website",
+  "name": "website-react",
+  "homepage": "http://samueldobsa.github.io/website-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
