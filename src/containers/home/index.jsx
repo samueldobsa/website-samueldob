@@ -15,7 +15,7 @@ const Home=() => {
                 <h1>
                     I'm Samuel,
                     <br/>
-                    BACKEND DEVELOPER
+                    FULL-STACK DEVELOPER
                 </h1>
                 <div className="home_contact-me">
                     <button onClick={handleNavigateToContactMe}>Let's code</button>

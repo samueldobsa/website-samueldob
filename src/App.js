@@ -1,8 +1,7 @@
 import './App.scss';
 import React from 'react';
 import {Routes, Route, useLocation} from 'react-router-dom';
-import Particles from "react-particles";
-import {loadFull} from "tsparticles";
+import Particles from "react-tsparticles";
 import Home from './containers/home';
 import About from './containers/about';
 import Resume from './containers/resume';
@@ -17,9 +16,7 @@ function App() {
     const location = useLocation();
     console.log(location);
 
-    const handleInit = async (main) => {
-        await loadFull(main)
-    }
+
 
     const renderParticleJsInHome = location.pathname === "/";
     const renderParticleJsInAbout = location.pathname === "/about";
@@ -33,23 +30,23 @@ function App() {
 
         {
             renderParticleJsInHome &&
-            <Particles id="particles" options={particles} init={handleInit}/>
+            <Particles id="particles" options={particles}/>
         }
         {
             renderParticleJsInAbout &&
-            <Particles id="particles" options={particles} init={handleInit}/>
+            <Particles id="particles" options={particles}/>
         }
         {
             renderParticleJsInSkills &&
-            <Particles id="particles" options={particles} init={handleInit}/>
+            <Particles id="particles" options={particles}/>
         }
         {
             renderParticleJsInPortfolio &&
-            <Particles id="particles" options={particles} init={handleInit}/>
+            <Particles id="particles" options={particles}/>
         }
         {
             renderParticleJsInContact &&
-            <Particles id="particles" options={particles} init={handleInit}/>
+            <Particles id="particles" options={particles}/>
         }
 
       {/* navbar */}
