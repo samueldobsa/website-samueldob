@@ -9,7 +9,6 @@ import {MdWork} from 'react-icons/md'
 import {MdSchool} from 'react-icons/md'
 import './styles.scss';
 
-
 const Resume=() => {
     return(
         <section id="resume" className="resume">
